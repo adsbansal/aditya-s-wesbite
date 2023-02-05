@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    width: 0;
+    transition: 1s;
+  }
+  
+.overlay-content {
+position: relative;
+top: 35%;
+width: 100%;
+text-align: center;
+}
+
+.overlay a {
+display: block;
+color: #818181;
+text-align: center;
+padding: 10px;
+text-decoration: none;
+font-size: 30px;
+transition: 0.5s;
+}
+
+.overlay a:focus,
+.overlay a:hover {
+color: #f1f1f1;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 1%;
+right: 5%;
+font-size: 60px;
+}
+
+.easeinout {
+    transition: opacity 5s ease-in-out;
+}
+
+@media screen and (max-height: 450px) {
+.overlay a {
+    font-size: 20px;
+}
+.overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+}
+}

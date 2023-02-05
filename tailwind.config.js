@@ -1,6 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 
+const newScreens = Object.entries(defaultTheme.screens).reduce(
+  (breakpoints, [label, value]) => {
+    if (label == "lg") {
+      breakpoints["xmd"] = "850px";
+    }
+    breakpoints[label] = value;
+    return breakpoints;
+  },
+  {}
+);
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -8,10 +19,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        ...defaultTheme.screens,
-        'md': "800px",
-      },
+      screens: newScreens,
     },
   },
   plugins: [],
