@@ -46,7 +46,7 @@ function Header() {
             {/* for large screens */}
             <div className="hidden xmd:block">
                 <div className="flex justify-center">
-                    <ul className="inline-flex">
+                    <ul className="inline-flex text-slate-300">
                         <li className="px-1">
                             <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out" href="/">
                                 home
