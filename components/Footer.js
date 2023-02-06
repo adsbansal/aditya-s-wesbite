@@ -1,9 +1,9 @@
 function Footer() {
-    return (
-        <div class="text-black text-center p-4 text-xs">
-            © 2023 Copyright: Aditya Bansal
-        </div>
-    );
+  return (
+      <div class="text-slate-400 font-extralight text-center p-4 text-xs">
+          ©2023, Aditya Bansal
+      </div>
+  );
 }
 
 export default Footer; 

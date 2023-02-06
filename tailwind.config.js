@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 const newScreens = Object.entries(defaultTheme.screens).reduce(
@@ -22,5 +21,5 @@ module.exports = {
       screens: newScreens,
     },
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 .overlay {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.9);
-    overflow-x: hidden;
-    width: 0;
-    transition: 1s;
-  }
-  
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  width: 0;
+  transition: 1s;
+}
+
 .overlay-content {
 position: relative;
 top: 35%;
@@ -45,16 +45,16 @@ font-size: 60px;
 }
 
 .easeinout {
-    transition: opacity 5s ease-in-out;
+  transition: opacity 5s ease-in-out;
 }
 
 @media screen and (max-height: 450px) {
 .overlay a {
-    font-size: 20px;
+  font-size: 20px;
 }
 .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
 }
 }
