@@ -32,7 +32,7 @@ function Header() {
                     <div className="overlay-content">
                     <a href="/">home</a>
                     <a href="/">work</a>
-                    <a href="/">words</a>
+                    <a href="/words">words</a>
                     </div>
                 </div>
 
@@ -48,19 +48,25 @@ function Header() {
                 <div className="flex justify-center">
                     <ul className="inline-flex text-slate-300">
                         <li className="px-1">
-                            <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out" href="/">
-                                home
-                            </button>
+                            <a href="/">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out">
+                                    home
+                                </button>
+                            </a>
                         </li>
                         <li className="px-1">
-                            <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out" href="#">
-                                work
-                            </button>
+                            <a href="/work">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out">
+                                    work
+                                </button>
+                            </a>
                         </li>
                         <li className="px-1">
-                            <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out" href="#">
-                                words
-                            </button>
+                            <a href="/words">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out">
+                                    words
+                                </button>
+                            </a>
                         </li>
 {/*                         
                         <li><a className="px-5 hover:text-green-500" href="/">home</a></li>
