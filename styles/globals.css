@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background-color: #161718; /* slate */
+}
+
+.special-color { 
+  background-color: #161718; /* slate */
+}
+
 .overlay {
   position: fixed;
   z-index: 1;

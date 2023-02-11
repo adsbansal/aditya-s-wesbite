@@ -9,11 +9,13 @@ function Post({ data, content }) {
   // console.log(typeof(JSON.stringify(content)));
   const readTime = getReadTime(JSON.stringify(content));
   return (
-    <div>
-      <h1 className="font-bold text-4xl mt-1 mb-3">{data.title}</h1>
+    <div className=""> 
+    {/* someday center this */}
+      <h1 className="font-bold text-slate-300 text-4xl mt-6 mb-3">{data.title}</h1>
       <time className="text-gray-500 italic">{data.date}</time>
-      <div className="text-gray-500 italic">~ {readTime} minute read</div>
-      <p className="prose mt-12">
+      <div className="text-gray-500 italic">less than {readTime} min</div>
+      <p className="prose prose-invert text-slate-300 mt-6 mb-20">
+        {/* change the inbuilt prose class to add somemore vibrancy */}
         <MDXRemote {...content} />
       </p>
     </div>

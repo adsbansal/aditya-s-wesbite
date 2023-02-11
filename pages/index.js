@@ -1,6 +1,6 @@
 function Home({ Component, pageProps }) {
   return (
-    <div>Does this work?</div>
+    <div className="text-white">Does this work?</div>
   );
 }
 

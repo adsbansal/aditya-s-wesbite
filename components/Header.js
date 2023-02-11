@@ -20,7 +20,7 @@ function Header() {
     };
 
     return (
-        <div className="container mx-auto py-4">
+        <div className="container mx-auto pt-4 pb-2">
 
             {/* for small screens - xmd:850px */}
             <div className="xmd:hidden"> 
@@ -37,8 +37,8 @@ function Header() {
                 </div>
 
                 <span onClick={OpenSidebar} style={{ cursor: "pointer" }}>
-                    <button class="w-4 h-4 rounded-full flex-grow
-                            bg-indigo-400 hover:bg-indigo-200">
+                    <button class="w-6 h-6 rounded-full flex-grow
+                            bg-gray-700 hover:bg-slate-700">
                     </button>
                 </span>
             </div>
@@ -46,24 +46,24 @@ function Header() {
             {/* for large screens */}
             <div className="hidden xmd:block">
                 <div className="flex justify-center">
-                    <ul className="inline-flex text-slate-300">
+                    <ul className="inline-flex text-slate-700">
                         <li className="px-1">
                             <a href="/">
-                                <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-700 rounded-full transition duration-500 ease-in-out">
                                     home
                                 </button>
                             </a>
                         </li>
                         <li className="px-1">
                             <a href="/work">
-                                <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-700 rounded-full transition duration-500 ease-in-out">
                                     work
                                 </button>
                             </a>
                         </li>
                         <li className="px-1">
                             <a href="/words">
-                                <button className="px-4 bg-tranparent border border-transparent hover:border-black rounded-full transition duration-500 ease-in-out">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-700 rounded-full transition duration-500 ease-in-out">
                                     words
                                 </button>
                             </a>

@@ -12,7 +12,7 @@ function PostCard({ title, date, description, slug }) {
     //     <a className="text-blue-500 mt-4 mb-2 block">Read more</a>
     //   </Link>
     // </div>
-    <div className="px-0.5 mx-0.5">
+    <div className="text-slate-300 px-1 mx-1">
       <h3 className="font text-base my-4">
         → 
         <Link href="/[slug]" as={`/${slug}`}>
