@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 html {
-  background-color: #161718; /* slate */
+  background-color: #0c1620; /* slate */
 }
 
-.special-color { 
-  background-color: #161718; /* slate */
+.social-icons {
+  height: 40px;
+  width: 40px;
 }
 
 .overlay {

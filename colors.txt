@@ -1,5 +1,11 @@
-darken theme 
+center the whole content 
+make content fade in 
+newsletter
+font
+make the markdown more vibrant
 add seo
+
+https://github.com/meko-deng/react-animated-social-icons
 
 moonlit
 background: #0F2027;  /* fallback for old browsers */
@@ -13,3 +19,33 @@ background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-2
 background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 slate-700
+
+---- 
+
+npm install -S react-useanimations
+
+----
+import React from "react";
+import ReactDOM from "react-dom";
+import UseAnimations from "react-useanimations";
+import github from "react-useanimations/lib/github";
+import twitter from "react-useanimations/lib/twitter";
+
+const App = () => {
+  return (
+    <div>
+      <UseAnimations animation={github} strokeColor={"white"} size={40} />
+      <br />
+      <div className="text-slate-300">
+        <a href="https://bobbyhadz.com"
+        target="_blank"
+        rel="noreferrer">
+            <UseAnimations animation={twitter} size={56} />
+        </a>
+        </div>
+    </div>
+  );
+};
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);

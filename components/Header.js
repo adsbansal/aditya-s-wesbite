@@ -1,4 +1,6 @@
 import { useState } from "react";
+import UseAnimations from "react-useanimations";
+import explore from "react-useanimations/lib/explore";
 
 function Header() {
     const [open, setOpen] = useState(false);
@@ -31,39 +33,39 @@ function Header() {
 
                     <div className="overlay-content">
                     <a href="/">home</a>
-                    <a href="/">work</a>
+                    <a href="/work">work</a>
                     <a href="/words">words</a>
                     </div>
                 </div>
 
                 <span onClick={OpenSidebar} style={{ cursor: "pointer" }}>
-                    <button class="w-6 h-6 rounded-full flex-grow
-                            bg-gray-700 hover:bg-slate-700">
-                    </button>
+                    <div className="social-icons">
+                        <UseAnimations animation={explore} strokeColor={"white"} speed={1} size={35} />
+                    </div>
                 </span>
             </div>
 
             {/* for large screens */}
             <div className="hidden xmd:block">
                 <div className="flex justify-center">
-                    <ul className="inline-flex text-slate-700">
+                    <ul className="inline-flex text-slate-500">
                         <li className="px-1">
                             <a href="/">
-                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-700 rounded-full transition duration-500 ease-in-out">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-500 rounded-full transition duration-500 ease-in-out">
                                     home
                                 </button>
                             </a>
                         </li>
                         <li className="px-1">
                             <a href="/work">
-                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-700 rounded-full transition duration-500 ease-in-out">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-500 rounded-full transition duration-500 ease-in-out">
                                     work
                                 </button>
                             </a>
                         </li>
                         <li className="px-1">
                             <a href="/words">
-                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-700 rounded-full transition duration-500 ease-in-out">
+                                <button className="px-4 bg-tranparent border border-transparent hover:border-slate-500 rounded-full transition duration-500 ease-in-out">
                                     words
                                 </button>
                             </a>
