@@ -10,7 +10,7 @@ function PostCard({ title, date, description, tags, slug }) {
           <a className="ml-2 text-xl font-bold hover:underline hover:text-teal-200">{title}</a> 
         </Link>
         &nbsp; ·  <time className="text-sm">{date}</time>
-        {console.log(tags)}
+        {/* {console.log(tags)} */}
         <p className="mt-2 italic">{description} · <span className="text-sm text-amber-500">{'#' + tags.join(' #')}</span></p>
       </div> 
     </div>
