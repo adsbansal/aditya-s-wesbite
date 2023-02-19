@@ -27,6 +27,7 @@ function MyApp({ Component, pageProps }) {
       {/* make this right */}
         <title> Ad'i Corner </title> 
         <link rel="icon" type="image/x-icon" sizes="48x48" href="images/favicon2.ico" />
+        <meta name="google-site-verification" content="B1sqf_k9wB6mxC7ykNyDyK3GJgwBjlyBbeFYsY4rkPA" />
       </Head>
       <Layout>
         <Component {...pageProps} />
