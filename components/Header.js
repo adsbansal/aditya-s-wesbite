@@ -11,6 +11,21 @@ function Header() {
         const sidebar = document.getElementById("myNav");
         const close = document.getElementById("theClose");
 
+        if (open) {
+        sidebar.style.width = "0%";
+        close.style.opacity = "0%";
+        setOpen(false);
+        } else {
+        sidebar.style.width = "100%";
+        close.style.opacity = "100%";
+        setOpen(true);
+        }
+    };
+
+    const OpenSidebarforlink = (e) => {
+        // e.preventDefault()
+        const sidebar = document.getElementById("myNav");
+        const close = document.getElementById("theClose");
 
         if (open) {
         sidebar.style.width = "0%";
@@ -29,14 +44,14 @@ function Header() {
             {/* for small screens - xmd:850px */}
             <div className="xmd:hidden"> 
                 <div className="overlay" id="myNav">
-                    <Link href="" id="theClose" className="closebtn easeinout" onClick={OpenSidebar}>
+                    <a href="" id="theClose" className="closebtn easeinout" onClick={OpenSidebar}>
                     &times;
-                    </Link>
-
+                    </a>
+                    
                     <div className="overlay-content">
-                    <Link href="/">home</Link>
-                    <Link href="/work">work</Link>
-                    <Link href="/words">words</Link>
+                        <Link href="/"><a className="easeinout" onClick={OpenSidebarforlink}>home</a></Link>
+                        <Link href="/work"><a id="theClose" className="easeinout" onClick={OpenSidebarforlink}>work</a></Link>
+                        <Link href="/words"><a id="theClose" className="easeinout" onClick={OpenSidebarforlink}>words</a></Link>
                     </div>
                 </div>
 
