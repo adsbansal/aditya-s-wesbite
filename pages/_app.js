@@ -24,7 +24,8 @@ function MyApp({ Component, pageProps }) {
           }}
       />
       <Head>
-        <title> Adi's Corner </title>
+      {/* make this right */}
+        <title> Ad'i Corner </title> 
         <link rel="icon" type="image/x-icon" sizes="48x48" href="images/favicon2.ico" />
       </Head>
       <Layout>

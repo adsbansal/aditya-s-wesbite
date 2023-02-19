@@ -1,6 +1,7 @@
 import { useState } from "react";
 import UseAnimations from "react-useanimations";
 import explore from "react-useanimations/lib/explore";
+import Link from "next/link";
 
 function Header() {
     const [open, setOpen] = useState(false);
@@ -28,14 +29,14 @@ function Header() {
             {/* for small screens - xmd:850px */}
             <div className="xmd:hidden"> 
                 <div className="overlay" id="myNav">
-                    <a href="" id="theClose" className="closebtn easeinout" onClick={OpenSidebar}>
+                    <Link href="" id="theClose" className="closebtn easeinout" onClick={OpenSidebar}>
                     &times;
-                    </a>
+                    </Link>
 
                     <div className="overlay-content">
-                    <a href="/">home</a>
-                    <a href="/work">work</a>
-                    <a href="/words">words</a>
+                    <Link href="/">home</Link>
+                    <Link href="/work">work</Link>
+                    <Link href="/words">words</Link>
                     </div>
                 </div>
 
@@ -51,25 +52,25 @@ function Header() {
                 <div className="flex justify-center">
                     <ul className="inline-flex text-slate-500">
                         <li className="px-1">
-                            <a href="/">
+                            <Link href="/">
                                 <button className="px-4 bg-tranparent border border-transparent hover:border-slate-500 rounded-full transition duration-500 ease-in-out">
                                     home
                                 </button>
-                            </a>
+                            </Link>
                         </li>
                         <li className="px-1">
-                            <a href="/work">
+                            <Link href="/work">
                                 <button className="px-4 bg-tranparent border border-transparent hover:border-slate-500 rounded-full transition duration-500 ease-in-out">
                                     work
                                 </button>
-                            </a>
+                            </Link>
                         </li>
                         <li className="px-1">
-                            <a href="/words">
+                            <Link href="/words">
                                 <button className="px-4 bg-tranparent border border-transparent hover:border-slate-500 rounded-full transition duration-500 ease-in-out">
                                     words
                                 </button>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
