@@ -6,7 +6,7 @@ export default function Words({ posts }) {
   return (
     <div className="sm:px-16 sm:mx-16">
       <FadeIn transitionDuration={600} delay={80}>
-        <h1 className="mt-10 mb-5 text-slate-300 font-semibold text-4xl underline">blogs and learnings.</h1>
+        <h1 className="mt-10 mb-5 text-teal-200 font-semibold text-4xl underline">blogs and learnings.</h1>
       </FadeIn>
       <FadeIn transitionDuration={600} delay={60}>
         {posts.map((post) => (
