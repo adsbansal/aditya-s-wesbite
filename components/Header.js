@@ -6,6 +6,7 @@ function Header() {
     const [open, setOpen] = useState(false);
 
     const OpenSidebar = (e) => {
+        e.preventDefault()
         const sidebar = document.getElementById("myNav");
         const close = document.getElementById("theClose");
 
@@ -27,7 +28,7 @@ function Header() {
             {/* for small screens - xmd:850px */}
             <div className="xmd:hidden"> 
                 <div className="overlay" id="myNav">
-                    <a href="javascript:void(0)" id="theClose" className="closebtn easeinout" onClick={OpenSidebar}>
+                    <a href="" id="theClose" className="closebtn easeinout" onClick={OpenSidebar}>
                     &times;
                     </a>
 
@@ -70,10 +71,6 @@ function Header() {
                                 </button>
                             </a>
                         </li>
-{/*                         
-                        <li><a className="px-5 hover:text-green-500" href="/">home</a></li>
-                        <li><a className="px-5 hover:text-gray-800" href="#">work</a></li>
-                        <li><a className="px-5 hover:text-gray-800" href="#">words</a></li> */}
                     </ul>
                 </div>
             </div>

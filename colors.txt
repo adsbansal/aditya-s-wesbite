@@ -1,8 +1,6 @@
-center the whole content 
-make content fade in 
 newsletter
-font
-make the markdown more vibrant
+do the animations
+add projects 
 add seo
 
 https://github.com/meko-deng/react-animated-social-icons

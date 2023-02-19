@@ -12,77 +12,94 @@ import loading2 from "react-useanimations/lib/loading2";
 function Home({ Component, pageProps }) {
   return (
     <div className="text-slate-300 sm:px-16 sm:mx-16">
-      {/* <FadeIn transitionDuration={800}> */}
-      {/* <h1 className="mt-10 mb-5 text-slate-300 font-semibold text-4xl underline">blogs and learnings.</h1> */}
-      <div className="flex flex-col flex-wrap mt-20">
-
+      <div className=''>
         {/* SECTION ONE */}
-        <div className='pb-5'>
-          <div className='mt-6 mb-2 font-semibold text-5xl'>
-            Hi, I am Aditya Bansal.
-          </div>
-          <div className='w-2/3'>
-          Welcome to my space on the internet. I am currently a student at TIET, Patiala. <br></br>
-          </div>
-          <div className='w-4/5'>
-          I like to invest my time in studying machine learning, product<br></br>
-          development, and blockchain. 
-          Some other fields I find really intersting are statistics and game-thoery.
-          I’m hoping doing all this <br></br> together will help think out-of 
-          the box solutions ¯\_(ツ)_/¯
-          </div>
+        <div className=''>
+          <FadeIn transitionDuration={800}>
+            <div className='mb-2 font-light text-teal-300 text-3xl xmd:text-5xl w-2/3 mt-10 xmd:mt-14'>
+              Hi, I am Aditya Bansal.
+            </div>
+            <div className='w-2/3 italic pt-1'>
+              ~ Welcome to my space on the internet. 
+            </div>
+            <div className='w-3/3 pt-1'>
+              I am currently a student at TIET, Patiala. 
+              I like to invest my time in studying machine learning, product
+              development, and blockchain. 
+            </div>
+          </FadeIn>
         </div>
 
-        {/* SECTION TWO */}
-        <div className="mb-2 pb-2 block">
-          <img className="w-2/5 -mt-20 float-right -mr-20" src="/adsbansal.jpeg" alt="Aditya Bansal"/>
-        </div>
+        <FadeIn transitionDuration={800}>
+          {/* SECTION TWO */}
+          <div className="flex flex-col items-center flex-wrap conatiner xmd:flex-row xmd:flex-wrap mt-16">
 
-        {/* SECTION THREE */}
-        {/* pl-44 */}
-        <div className='mt-5 pt-5 pb-5 mb-5'>
-          <div className='pb-1 mb-1'>
-            If I am not trying to build something, you’d find me binge-watching Suits or geeking out on Economics, Food Recipes and Motorsports. <br></br> <br></br>
-            I am always open to opportunities and meeting new people! <br></br>
-            <div className='mt-1 pt-1 text-xl text-teal-200'>
-              Let's get in touch ↯ 
-            </div> 
-          </div>
-          <div className='pt-0.5 mt-0.5'>
-            <div className='flex flex-row'>
-              <div className="social-icons">
-                <a href="https://twitter.com/adsbansal"
-                target="_blank"
-                rel="noreferrer">
-                    <UseAnimations animation={twitter} strokeColor={"#99f6e4"} speed={0.3} size={35} />
-                </a>
+            {/* SECTION TWO.ONE */}
+            <div className='pl-auto pr-auto w-2/3 pb-14 xmd:w-1/2 xmd:pr-10 -rotate-6'>
+              <img className="" src="/adsbansal.jpeg" alt="Aditya Bansal"/>
+            </div>
+
+            {/* SECTION TWO.TWO */}
+            <div className='xmd:pb-5 xmd:w-1/2 flex xmd:items-center'>
+              <div>
+                <div>
+                  Some other fields I find really intersting are statistics and game-thoery.<br></br>
+                  I’m hoping doing all this together will help think out-of 
+                  the box solutions ¯\_(ツ)_/¯
+                </div>
+
+                <div className='pt-14'>
+                If I am not trying to build something, you’d find me binge-watching 
+                Suits <br></br>
+                or geeking out on Economics, Food Recipes and Motorsports. 
+                </div>
               </div>
-              <div className="social-icons">
-                <a href="https://www.linkedin.com/in/adsbansal/"
-                target="_blank"
-                rel="noreferrer">
-                    <UseAnimations animation={linkedin} strokeColor={"#99f6e4"} speed={0.5} size={35} />
-                </a>
-              </div>
-              <div className="social-icons">
-                <a href="https://github.com/adsbansal"
-                target="_blank"
-                rel="noreferrer">
-                    <UseAnimations animation={github} strokeColor={"#99f6e4"} speed={1} size={35} />
-                </a>
-              </div>
-              <div className="social-icons">
-                <a href="mailto:adsb.works5@gmail.com"
-                target="_blank"
-                rel="noreferrer">
-                    <UseAnimations animation={mail} strokeColor={"#99f6e4"} speed={1.5} size={35} />
-                </a>
+            </div>
+          </div>  
+
+          {/* SECTION THREE */}
+          <div className='xmd:mt-2 pt-7 pb-2 mb-5'>
+            <div className='pb-1 mb-1'>
+              I am always open to opportunities and meeting new people! <br></br>
+              <div className='mt-1 pt-1 text-xl text-teal-200'>
+                Let's get in touch ↯ 
+              </div> 
+            </div>
+            <div className='pt-0.5 mt-0.5'>
+              <div className='flex flex-row'>
+                <div className="social-icons">
+                  <a href="https://twitter.com/adsbansal"
+                  target="_blank"
+                  rel="noreferrer">
+                      <UseAnimations animation={twitter} strokeColor={"#99f6e4"} speed={0.3} size={30} />
+                  </a>
+                </div>
+                <div className="social-icons">
+                  <a href="https://www.linkedin.com/in/adsbansal/"
+                  target="_blank"
+                  rel="noreferrer">
+                      <UseAnimations animation={linkedin} strokeColor={"#99f6e4"} speed={0.5} size={30} />
+                  </a>
+                </div>
+                <div className="social-icons">
+                  <a href="https://github.com/adsbansal"
+                  target="_blank"
+                  rel="noreferrer">
+                      <UseAnimations animation={github} strokeColor={"#99f6e4"} speed={1} size={30} />
+                  </a>
+                </div>
+                <div className="social-icons">
+                  <a href="mailto:adsb.works5@gmail.com"
+                  target="_blank"
+                  rel="noreferrer">
+                      <UseAnimations animation={mail} strokeColor={"#99f6e4"} speed={1.5} size={30} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-      </div>  
+        </FadeIn>
+      </div>
     </div>
   );
 }
