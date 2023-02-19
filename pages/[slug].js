@@ -26,7 +26,7 @@ function Post({ data, content }) {
         mt-6 mb-20
         ">
           {/* change the inbuilt prose class to add somemore vibrancy */}
-          {console.log(content)}
+          {/* {console.log(content)} */}
           <MDXRemote {...content} />
         </p>
       </FadeIn>
