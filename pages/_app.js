@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
           }}
           twitter={{
               handle: '@adsbansal',
-              site: 'adsbansal.org',
+              site: '',
               cardType: 'summary',
           }}
       />
