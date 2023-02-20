@@ -122,7 +122,6 @@ export default Home;
       //   <div class="w-full md:w-1/2">
       //     <FadeIn transitionDuration={600} delay={80}>
       //       <div className="px-1">
-      //         <img src="/ads.png" alt="Ads" />
       //       </div>
       //     </FadeIn>
       //   </div>
