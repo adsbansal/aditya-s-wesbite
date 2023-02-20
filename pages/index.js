@@ -36,7 +36,7 @@ function Home({ Component, pageProps }) {
 
             {/* SECTION TWO.ONE */}
             <div className='pl-auto pr-auto w-2/3 pb-14 xmd:w-1/2 xmd:pr-10 -rotate-6'>
-              <img className="" src="/adsbansal.jpeg" alt="Aditya Bansal"/>
+              <img className="" src="/picture.jpeg" alt="Aditya Bansal"/>
             </div>
 
             {/* SECTION TWO.TWO */}
