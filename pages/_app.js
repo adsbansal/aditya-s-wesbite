@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }) {
           openGraph={{
               type: 'website',
               locale: 'en_IE',
-              url: 'https://www.url.ie/',
-              siteName: 'SiteName',
+              url: 'https://www.adisplace.me/',
+              siteName: 'AdisCorner',
           }}
           twitter={{
               handle: '@adsbansal',
@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
       {/* make this right */}
         <title> Adi's Corner </title> 
         <link rel="icon" type="image/x-icon" sizes="48x48" href="images/favicon2.ico" />
-        <meta name="google-site-verification" content="B1sqf_k9wB6mxC7ykNyDyK3GJgwBjlyBbeFYsY4rkPA" />
+        <meta name="google-site-verification" content="QwvwKycyniC-qj3VGzMoYsFLkeTnnLjrQVthoReaokk" />
       </Head>
       <Layout>
         <Component {...pageProps} />

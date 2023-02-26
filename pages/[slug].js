@@ -14,16 +14,18 @@ function Post({ data, content }) {
     <div className="sm:px-16 sm:mx-16"> 
     {/* someday center this */}
       <FadeIn transitionDuration={600} delay={80}>
-        <h1 className="font-bold text-teal-200 text-4xl mt-16 mb-3">{data.title}</h1>
-        <time className="text-gray-200 italic">· {data.date}</time>
-        <div className="text-gray-200 italic">~ less than {readTime} min</div>
+        {/* <h1 className="font-bold text-teal-200 text-4xl mt-16 mb-3">{data.title}</h1> */}
+        <div className="mt-16"></div>
+        <span className="text-sm text-amber-500 italic">{'#' + data.tags.join(' #')}</span>
+        <time className="text-gray-200 text-sm italic">{data.date}</time>
+        <div className="text-gray-200 text-sm italic">Less than {readTime} min</div>
         <p className="
         prose prose-invert 
         prose-headings:text-teal-200
         prose-blockquote:text-amber-500
         hover:prose-a:text-teal-200
         prose-code:text-green-400
-        mt-6 mb-20
+        mt-1 mb-20
         ">
           {/* change the inbuilt prose class to add somemore vibrancy */}
           {/* {console.log(content)} */}
