@@ -16,7 +16,7 @@ function Home({ Component, pageProps }) {
         {/* SECTION ONE */}
         <div className=''>
           <FadeIn transitionDuration={800}>
-            <div className='mb-2 font-light text-teal-300 text-3xl xmd:text-5xl w-2/3 mt-10 xmd:mt-14'>
+            <div className='mb-2 text-teal-200 text-3xl xmd:text-4xl w-2/3 mt-10 xmd:mt-20'>
               Hi, I am Aditya Bansal.
             </div>
             <div className='w-2/3 italic pt-1'>
@@ -35,7 +35,7 @@ function Home({ Component, pageProps }) {
           <div className="flex flex-col items-center flex-wrap conatiner xmd:flex-row xmd:flex-wrap mt-16">
 
             {/* SECTION TWO.ONE */}
-            <div className='pl-auto pr-auto w-2/3 pb-14 xmd:w-1/2 xmd:pr-10 -rotate-6'>
+            <div className='pl-auto pr-auto w-2/3 pb-14 xmd:w-1/2 xmd:pr-10 '>
               <img className="" src="/picture.jpeg" alt="Aditya Bansal"/>
             </div>
 
@@ -43,7 +43,7 @@ function Home({ Component, pageProps }) {
             <div className='xmd:pb-5 xmd:w-1/2 flex xmd:items-center'>
               <div>
                 <div>
-                  Some other fields I find really intersting are statistics and game-thoery.<br></br>
+                  Some other fields I find really intersting are statistics and game-theory.<br></br>
                   I’m hoping doing all this together will help think out-of 
                   the box solutions ¯\_(ツ)_/¯
                 </div>
@@ -58,11 +58,11 @@ function Home({ Component, pageProps }) {
           </div>  
 
           {/* SECTION THREE */}
-          <div className='xmd:mt-2 pt-7 pb-2 mb-5'>
+          <div className='xmd:mt-2 xmd:pt-3 pt-14 pb-2 mb-5'>
             <div className='pb-1 mb-1'>
               I am always open to opportunities and meeting new people! <br></br>
               <div className='mt-1 pt-1 text-xl text-teal-200'>
-                Let's get in touch ↯ 
+                Let's get in touch →
               </div> 
             </div>
             <div className='pt-0.5 mt-0.5'>
