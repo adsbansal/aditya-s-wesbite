@@ -23,7 +23,7 @@ function Home({ Component, pageProps }) {
               ~ Welcome to my space on the internet. 
             </div>
             <div className='w-3/3 pt-1'>
-              I am a 3rd year CS student. 
+              I am a 4rd year CS student. 
               I like to invest my time in studying machine learning, product
               development, and blockchain. 
             </div>

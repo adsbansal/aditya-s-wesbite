@@ -6,10 +6,19 @@ export default function Work() {
         <FadeIn transitionDuration={600} delay={80}>
           <div className="py-4 my-4">
               <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Currently</h1>
-              <p>Learning about blockchains and studying courses including NLP and Advanced Data Science.</p>        
+              <p>Learning about blockchains and studying courses including NLP, Advanced Data Science and Product Management.</p>        
           </div>
           {/* <h1 className="mt-6 mb-5 text-slate-300 font-semibold text-xl underline">Previously:</h1>
           <p></p> */}
+          <div className="py-4 my-4">
+              <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Previously</h1>
+              <h1 className="font-bold underline">Accenture Solutions</h1>
+              <ul className="list-disc px-1 mx-1">
+                <li>Designed a solution for un-labeled clustering of textual data and further gained insights on the clusters using LLMs.</li>
+                <li>Researched and analysed different LLMs for various use-cases. Dwelled deeper into frameworks like Langchain and Llamaindex. Implemented ReAct Framework(Langchain) for one of the use-cases.</li>
+                <li>Worked on translation metrics to quantify the accuracy of machine translations methods.</li>
+              </ul>        
+          </div>
 
           <div className="py-4 my-4">
               <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Projects I've worked on</h1>
