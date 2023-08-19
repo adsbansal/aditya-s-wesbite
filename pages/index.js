@@ -25,7 +25,7 @@ function Home({ Component, pageProps }) {
             <div className='w-3/3 pt-1'>
               I am a 4rd year CS student. 
               I like to invest my time in studying machine learning, product
-              development, and blockchain. 
+              development, and Generative AI Development. 
             </div>
           </FadeIn>
         </div>
