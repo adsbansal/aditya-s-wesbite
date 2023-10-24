@@ -25,13 +25,23 @@ export default function Work() {
               <div className="px-1 mx-1">
                   <h3 className="font text-base my-4">
                       → 
-                      <a href="https://github.com/adsbansal/buildspace-dao-starter" className="ml-2 underline hover:text-teal-200" target="_blank" rel="noopener noreferrer">Decentralized Autonomous Organization App</a>
-                      : Learned the basics of blockchain application and tinkered with web3.js
+                      <a href="https://360researchpapers.streamlit.app" className="ml-2 underline hover:text-teal-200" target="_blank" rel="noopener noreferrer">360-ResearchPapers</a>
+                      : Generative AI app that helps you kickstart your research paper writing journey by providing a brief on the topic along with few recent high citation papers and started YouTube Links.
+                  </h3> 
+                  <h3 className="font text-base my-4">
+                      → 
+                      <a href="https://huggingface.co/adsbtb/jobs" className="ml-2 underline hover:text-teal-200" target="_blank" rel="noopener noreferrer">Market Like SteveJobs</a>
+                      : Fine tuned the Llama2 LLM model using PEFT techniques to enable the model to suggest marketing techniques like the ones used Steve Jobs for Apple products.
                   </h3> 
                   <h3 className="font text-base my-4">
                       → 
                       <a href="https://github.com/adsbansal/FetalHealthClassificaiton" className="ml-2 underline hover:text-teal-200" target="_blank" rel="noopener noreferrer">Fetal Health Classification System</a>
                       : Developed an machine learning classification project for Fetal Health Classification using multiple models.
+                  </h3> 
+                  <h3 className="font text-base my-4">
+                      → 
+                      <a href="https://github.com/adsbansal/buildspace-dao-starter" className="ml-2 underline hover:text-teal-200" target="_blank" rel="noopener noreferrer">Decentralized Autonomous Organization App</a>
+                      : Learned the basics of blockchain application and tinkered with solidity
                   </h3> 
                   <h3 className="font text-base my-4">
                       → 
