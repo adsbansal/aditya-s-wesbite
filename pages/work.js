@@ -6,7 +6,7 @@ export default function Work() {
         <FadeIn transitionDuration={600} delay={80}>
           <div className="py-4 my-4">
               <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Currently</h1>
-              <p>Learning about blockchains and studying courses including NLP, Advanced Data Science and Product Management.</p>        
+              <p>Learning about Product Development NLP and Advanced Data Science.</p>        
           </div>
           {/* <h1 className="mt-6 mb-5 text-slate-300 font-semibold text-xl underline">Previously:</h1>
           <p></p> */}
@@ -57,11 +57,8 @@ export default function Work() {
             <h3 className="font text-base my-4">
               → 
               <a href="https://www.linkedin.com/feed/update/urn:li:activity:7116841358841016320/" className="ml-2 underline hover:text-teal-200" target="_blank" rel="noopener noreferrer">Reducing ride cancellations on Uber</a>
-              : Generative AI app that helps you kickstart your research paper writing journey by providing a brief on the topic along with few recent high citation papers and started YouTube Links.
-            </h3> 
-            <ul className="list-disc px-1 mx-1">
               "Customers require accurate time estimates to be shown on the app. In case their ride is getting delayed, they want to understand the reason of delay to ease their minds. Restlessness pushes them to look for alternative and cancel their rides.”
-            </ul>        
+            </h3>        
           </div>
         </FadeIn>
       </div>
