@@ -6,7 +6,11 @@ export default function Work() {
         <FadeIn transitionDuration={600} delay={80}>
           <div className="py-4 my-4">
               <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Currently</h1>
-              <p>Learning about Product Development NLP and Advanced Data Science.</p>        
+              <p>→ Computer vision research intern at IITD under Dr. Chetan Arora. Under his guidance for the past 3 months I have been working on multimodal models for classifcation from medical image-text pairs.</p>    
+              <p>→ Working on training a CLIP model on medical image-text pairs to be utilized as a pretrained model for downstream applications.</p>        
+              <br></br>    
+              <p>→ Delving further into deep learning.</p>        
+              <p>→ Working on an environmental compliance software on the weekends!</p>
           </div>
           {/* <h1 className="mt-6 mb-5 text-slate-300 font-semibold text-xl underline">Previously:</h1>
           <p></p> */}

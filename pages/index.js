@@ -24,7 +24,7 @@ function Home({ Component, pageProps }) {
             </div>
             <div className='w-3/3 pt-1'>
               I am a 4rd year CS student. 
-              I like to invest my time in studying machine learning, product
+              I like to invest my time in studying deep learning, product
               development, and Generative AI Development. 
             </div>
           </FadeIn>
@@ -43,13 +43,13 @@ function Home({ Component, pageProps }) {
             <div className='xmd:pb-5 xmd:w-1/2 flex xmd:items-center'>
               <div>
                 <div>
-                  Some other fields I find really intersting are statistics and game-theory.<br></br>
-                  I’m hoping doing all this together will help think out-of 
-                  the box solutions ¯\_(ツ)_/¯
+                  Currenly a research intern at IIT Delhi, I enjoy trying to make sense of multimodal medical data at the computer vision lab.<br></br>
+                  I like to explore difference fields, hence the interest in product development. I hope to think out-of 
+                  the box solutions someday ¯\_(ツ)_/¯
                 </div>
 
                 <div className='pt-14'>
-                If I am not trying to build something, you’d find me binge-watching 
+                If I am not trying to build something or reading research papers, you’d find me binge-watching 
                 Suits <br></br>
                 or geeking out on Economics, Food Recipes and Motorsports. 
                 </div>
@@ -132,3 +132,45 @@ export default Home;
   <img className="z-20 w-3/4 mt-10 float-left -ml-24" src="/buildings.jpg" width="600" />
   <img className="z-30 w-1/2 mt-10 float-right -mr-5" src="/silloutte.jpg" width="600" />
 </div> */}
+
+
+// <FadeIn transitionDuration={800}>
+// <div className='mb-2 text-teal-200 text-3xl xmd:text-4xl w-2/3 mt-10 xmd:mt-20'>
+//   Hi, I am Aditya Bansal.
+// </div>
+// <div className='w-2/3 italic pt-1'>
+//   ~ Welcome to my space on the internet. 
+// </div>
+// <div className='w-3/3 pt-1'>
+//   I am a 4rd year CS student. 
+//   I like to invest my time in studying machine learning, product
+//   development, and Generative AI Development. 
+// </div>
+// </FadeIn>
+// </div>
+
+// <FadeIn transitionDuration={800}>
+// {/* SECTION TWO */}
+// <div className="flex flex-col items-center flex-wrap conatiner xmd:flex-row xmd:flex-wrap mt-16">
+
+// {/* SECTION TWO.ONE */}
+// <div className='pl-auto pr-auto w-2/3 pb-14 xmd:w-1/2 xmd:pr-10 '>
+//   <img className="" src="/picture.jpeg" alt="Aditya Bansal"/>
+// </div>
+
+// {/* SECTION TWO.TWO */}
+// <div className='xmd:pb-5 xmd:w-1/2 flex xmd:items-center'>
+//   <div>
+//     <div>
+//       Some other fields I find really intersting are statistics and game-theory.<br></br>
+//       I’m hoping doing all this together will help think out-of 
+//       the box solutions ¯\_(ツ)_/¯
+//     </div>
+
+//     <div className='pt-14'>
+//     If I am not trying to build something, you’d find me binge-watching 
+//     Suits <br></br>
+//     or geeking out on Economics, Food Recipes and Motorsports. 
+//     </div>
+//   </div>
+// </div>
