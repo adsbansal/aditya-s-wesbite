@@ -10,7 +10,7 @@ export default function Work() {
               <p>→ Working on training a CLIP model on medical image-text pairs to be utilized as a pretrained model for downstream applications.</p>        
               <br></br>    
               <p>→ Delving further into deep learning.</p>        
-              <p>→ Working on an <a href='https://www.linkedin.com/company/vara-climate/?trk=public_profile_topcard-current-company' class='text-blue-500 hover:underline cursor-pointer'>environmental compliance software</a> on the weekends!</p>
+              <p>→ Working on an <a href='https://www.linkedin.com/company/vara-climate/?trk=public_profile_topcard-current-company' className='text-blue-500 hover:underline cursor-pointer'>environmental compliance software</a> on the weekends!</p>
           </div>
           {/* <h1 className="mt-6 mb-5 text-slate-300 font-semibold text-xl underline">Previously:</h1>
           <p></p> */}
