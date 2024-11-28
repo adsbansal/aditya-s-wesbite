@@ -6,18 +6,29 @@ export default function Work() {
         <FadeIn transitionDuration={600} delay={80}>
           <div className="py-4 my-4">
               <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Currently</h1>
-              <p>→ Computer vision research intern at IITD under Dr. Chetan Arora. Under his guidance for the past 3 months I have been working on multimodal models for classifcation from medical image-text pairs.</p>    
-              <p>→ Working on training a CLIP model on medical image-text pairs to be utilized as a pretrained model for downstream applications.</p>        
-              <br></br>    
+              <p>→ Computer Vision use-cases at Cars24.</p>    
+              {/* <p>→ </p>         */}
+              {/* <br></br>     */}
               <p>→ Delving further into deep learning.</p>        
-              <p>→ Working on an <a href='https://www.linkedin.com/company/vara-climate/?trk=public_profile_topcard-current-company' className='text-blue-500 hover:underline cursor-pointer'>environmental compliance software</a> on the weekends!</p>
+              {/* <p>→ Working on an <a href='https://www.linkedin.com/company/vara-climate/?trk=public_profile_topcard-current-company' className='text-blue-500 hover:underline cursor-pointer'>environmental compliance software</a> on the weekends!</p> */}
+              <p>→ Working on delivering the <a href='https://www.theachaarlibrary.com/collections' className='text-blue-500 hover:underline cursor-pointer'>tastiest achaars and tea snacks</a> on the weekends!</p>
           </div>
           {/* <h1 className="mt-6 mb-5 text-slate-300 font-semibold text-xl underline">Previously:</h1>
           <p></p> */}
           <div className="py-4 my-4">
               <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Previously</h1>
-              <h1 className="font-bold underline">Accenture Solutions</h1>
-              <ul className="list-disc px-1 mx-1">
+              <h1 className="font-bold underline">Junior Research Engineer, Staqu Technologies</h1>
+              <ul className="list-disc px-1 mx-1 mb-5">
+                <li>Worked on researching and deploying models for CCTV camera analytics 📷. Brainstormed and built pipeline to detect instances of factory personnel running.</li>
+                <li>Working on NLP problems in the domain of homeland security.</li>
+              </ul> 
+              <h1 className="font-bold underline">Research Intern, IIT Delhi</h1>
+              <ul className="list-disc px-1 mx-1 mb-5">
+                <li>Computer vision research intern at IITD under Dr. Chetan Arora. Under his guidance for the past 3 months I have been working on multimodal models for classifcation from medical image-text pairs.</li>
+                <li>Working on training a CLIP model on medical image-text pairs to be utilized as a pretrained model for downstream applications.</li>
+              </ul>       
+              <h1 className="font-bold underline">Dev Intern, Accenture Solutions</h1>
+              <ul className="list-disc px-1 mx-1 mb-5">
                 <li>Designed a solution for un-labeled clustering of textual data and further gained insights on the clusters using LLMs.</li>
                 <li>Researched and analysed different LLMs for various use-cases. Dwelled deeper into frameworks like Langchain and Llamaindex. Implemented ReAct Framework(Langchain) for one of the use-cases.</li>
                 <li>Worked on translation metrics to quantify the accuracy of machine translations methods.</li>
