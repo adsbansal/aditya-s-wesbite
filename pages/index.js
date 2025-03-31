@@ -24,7 +24,7 @@ function Home({ Component, pageProps }) {
             </div>
             <div className='w-3/3 pt-1'>
               I am a 22 something curious energy-ball. 
-              Currently building automous evalutation systems for "Better Drives, Better Lives" at Cars24 🚗. You'd be suprised just how much DL a pre-owned car marketplace utilizes.
+              Currently building automous evalutation systems for "Better Drives, Better Lives" at Cars24 🚗. You'd be suprised by the automation potential Deep Learning has to offer to a pre-owned car marketplace utilizes.
             </div>
           </FadeIn>
         </div>
@@ -43,14 +43,14 @@ function Home({ Component, pageProps }) {
               <div>
                 <div>
                   <br></br>
-                  Previously a <b>research intern</b> at IIT Delhi, I enjoy trying to make sense of multimodal medical data at the computer vision lab.<br></br>
-                  I like to explore difference fields, hence the interest in product development. I hope to think out-of 
+                  Previously a <b>research intern</b> at IIT Delhi, I enjoyed trying to make sense of multimodal medical data at the computer vision lab.<br></br>
+                  I like to explore different fields, and have a strong interest in product development. I hope to build diversified skills to think out-of 
                   the box solutions someday ¯\_(ツ)_/¯
                 </div>
 
                 <div className='pt-14'>
                 If I am not working on something or reading research papers 📝, you’d find me binge-watching 
-                Suits 👔 or geeking out on Food Recipes 🍝 and Motorsports. <br></br> <br></br>
+                Suits 👔 or geeking out on Food Recipes 🍝 and Formula 1. <br></br> <br></br>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ function Home({ Component, pageProps }) {
           {/* SECTION THREE */}
           <div className='xmd:mt-1 xmd:pt-1 pt-10 pb-2 mb-5'>
             <div className='pb-1 mb-1'>
-              Someday I'd like to explore the effect of psychology on product development and building great advertisement campaingns. Also, maybe build something related to time-series along the way. <br></br><br></br>
+              I'd like to explore the effect of psychology on product development and building great advertisement campaingns. Also, maybe build something related to time-series along the way. <br></br><br></br>
               I am always open to opportunities and meeting new people! <br></br>
               <div className='mt-1 pt-1 text-xl text-teal-200'>
                 Let's get in touch →
