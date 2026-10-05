@@ -6,16 +6,24 @@ export default function Work() {
         <FadeIn transitionDuration={600} delay={80}>
           <div className="py-4 my-4">
               <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Currently</h1>
-              <p>→ Computer Vision use-cases at Cars24.</p>    
+              <p>→Building <a href="https://rapport-manifesto.vercel.app/" className='text-blue-500 hover:underline cursor-pointer'>Rapport</a> - Making hiring and applying personalised and effortless.</p>        
+              <p>Associate Machine Learning Scientist 1 - <a href="https://www.wadhwaniai.org/" className='text-blue-500 hover:underline cursor-pointer'>Wadhwani AI</a>: ML Solutions for agriculture in rural India.</p>        
+              {/* <p>→ Computer Vision use-cases at Cars24.</p>     */}
               {/* <p>→ </p>         */}
               {/* <br></br>     */}
-              <p>→ Delving further into deep learning.</p>        
+              {/* <p>→ Delving further into deep learning.</p>         */}
               {/* <p>→ Working on an <a href='https://www.linkedin.com/company/vara-climate/?trk=public_profile_topcard-current-company' className='text-blue-500 hover:underline cursor-pointer'>environmental compliance software</a> on the weekends!</p> */}
-              <p>→ Working on delivering the <a href='https://www.theachaarlibrary.com/collections' className='text-blue-500 hover:underline cursor-pointer'>tastiest achaars and tea snacks</a> on the weekends!</p>
+              {/* <p>→ Working on delivering the <a href='https://www.theachaarlibrary.com/collections' className='text-blue-500 hover:underline cursor-pointer'>tastiest achaars and tea snacks</a> on the weekends!</p> */}
           </div>
           {/* <h1 className="mt-6 mb-5 text-slate-300 font-semibold text-xl underline">Previously:</h1>
           <p></p> */}
           <div className="py-4 my-4">
+              <h1 className="font-bold underline">Machine Learning Engineer, CARS24</h1>
+              <ul className="list-disc px-1 mx-1 mb-5">
+                <li>Led research on vehicle damage detection using computer vision. Integrated vision transformers into YOLO-based architectures for fine-grained segmentation</li>
+                <li>Developed an automated annotation pipeline using serverless functions to trigger weakly trained models, reducing manual labeling effort by 60%. Currently researching OCR limitations of VLMs on Indian vehicle registration documents</li>
+                <li>Please visit my Linkedin for more!</li>
+              </ul> 
               <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Previously</h1>
               <h1 className="font-bold underline">Junior Research Engineer, Staqu Technologies</h1>
               <ul className="list-disc px-1 mx-1 mb-5">

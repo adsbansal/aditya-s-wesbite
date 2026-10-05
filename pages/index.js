@@ -23,8 +23,7 @@ function Home({ Component, pageProps }) {
               ~ Welcome to my space on the internet. 
             </div>
             <div className='w-3/3 pt-1'>
-              I am a 22 something curious energy-ball. 
-              Currently building automous evalutation systems for "Better Drives, Better Lives" at Cars24 🚗. You'd be suprised by the automation potential Deep Learning has to offer to a pre-owned car marketplace utilizes.
+              I am 24, currently building ML systems at <a href="https://www.wadhwaniai.org/" target="_blank" rel="noreferrer" className='text-teal-200'>Wadhwani AI</a> - A non-for-profit building AI solutions for rural India. I focus on building <a href="https://play.google.com/store/apps/details?id=org.wadhwaniai.agrivaani&hl=en_IN" target="_blank" rel="noreferrer" className='text-teal-200'>computer vision+text</a> based applications to improve agricultural yield in India.
             </div>
           </FadeIn>
         </div>
@@ -43,14 +42,13 @@ function Home({ Component, pageProps }) {
               <div>
                 <div>
                   <br></br>
-                  Previously a <b>research intern</b> at IIT Delhi, I enjoyed trying to make sense of multimodal medical data at the computer vision lab.<br></br>
+                  Previously, a Machine Learning Engineer at CARS24 and a <b>research intern</b> at IIT Delhi. At CARS24 I built automous evalutation systems for "Better Drives, Better Lives" at Cars24 🚗. At enjoyed trying to make sense of multimodal medical data at the computer vision lab.<br></br>
                   I like to explore different fields, and have a strong interest in product development. I hope to build diversified skills to think out-of 
-                  the box solutions someday ¯\_(ツ)_/¯
+                  the box solutions sometime soon ¯\_(ツ)_/¯
                 </div>
 
                 <div className='pt-14'>
-                If I am not working on something or reading research papers 📝, you’d find me binge-watching 
-                Suits 👔 or geeking out on Food Recipes 🍝 and Formula 1. <br></br> <br></br>
+                If I am not working on something or reading research papers 📝, you’d find me rowing at the gym 🚣‍♂️ or geeking out on Food Recipes 🍝 and Formula 1. <br></br> <br></br>
                 </div>
               </div>
             </div>
