@@ -1,7 +1,10 @@
 import { useState } from "react";
-import UseAnimations from "react-useanimations";
+import dynamic from "next/dynamic";
 import explore from "react-useanimations/lib/explore";
 import Link from "next/link";
+
+// lottie-web touches `document` on import, so only load it in the browser
+const UseAnimations = dynamic(() => import("react-useanimations"), { ssr: false });
 
 function Header() {
     const [open, setOpen] = useState(false);

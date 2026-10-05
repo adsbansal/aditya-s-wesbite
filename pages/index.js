@@ -1,12 +1,15 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 
-import UseAnimations from "react-useanimations";
+import dynamic from 'next/dynamic';
 import github from "react-useanimations/lib/github";
 import twitter from "react-useanimations/lib/twitter";
 import linkedin from "react-useanimations/lib/linkedin";
 import mail from "react-useanimations/lib/mail";
 import loading2 from "react-useanimations/lib/loading2";
+
+// lottie-web touches `document` on import, so only load it in the browser
+const UseAnimations = dynamic(() => import("react-useanimations"), { ssr: false });
 
 
 function Home({ Component, pageProps }) {
