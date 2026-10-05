@@ -18,13 +18,13 @@ export default function Work() {
           {/* <h1 className="mt-6 mb-5 text-slate-300 font-semibold text-xl underline">Previously:</h1>
           <p></p> */}
           <div className="py-4 my-4">
+              <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Previously</h1>
               <h1 className="font-bold underline">Machine Learning Engineer, CARS24</h1>
               <ul className="list-disc px-1 mx-1 mb-5">
                 <li>Led research on vehicle damage detection using computer vision. Integrated vision transformers into YOLO-based architectures for fine-grained segmentation</li>
                 <li>Developed an automated annotation pipeline using serverless functions to trigger weakly trained models, reducing manual labeling effort by 60%. Currently researching OCR limitations of VLMs on Indian vehicle registration documents</li>
                 <li>Please visit my Linkedin for more!</li>
               </ul> 
-              <h1 className="mt-6 mb-5 font-semibold text-teal-200 text-3xl underline">Previously</h1>
               <h1 className="font-bold underline">Junior Research Engineer, Staqu Technologies</h1>
               <ul className="list-disc px-1 mx-1 mb-5">
                 <li>Worked on researching and deploying models for CCTV camera analytics 📷. Brainstormed and built pipeline to detect instances of factory personnel running.</li>
